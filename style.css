@@ -1,0 +1,666 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 760px) {
+
+    :root{
+        --grey: rgba(65,65,65);
+        --top-margin: 20px;
+        --nintendo-red: rgba(231,0,10,255);
+    }
+
+    /* header header header header header header header header
+    header header header header header header header header */
+
+
+    a{
+        color: red;
+        font-weight: bold;
+    }
+
+
+
+    header{
+        width: 100wh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo-container{
+        width: 100%;
+        background-color: var(--nintendo-red);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo-container img{
+        width: 135px;
+        height: 40px;
+        margin: 5px;
+    }
+
+    .header-options{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+
+    .header-options .header-text{
+        font-size: 15px;
+        color: white;
+        margin-right: 20px;
+    }
+
+    .header-options .change-theme{
+        width: 28px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid white;
+        border-radius: 2px;
+        margin-right: 10px;
+    }
+
+    #theme-icon{
+        width: 28px;
+        height: 20px;
+    }
+
+    .shipping-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+    }
+
+
+  .shipping-div{
+    display: none;
+  }
+
+  .earn-points-div{
+    background-color: rgba(247,247,247,255);
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  /* download section download section download section download section
+  download section download section download section download section */
+
+  body{
+    background-color: white;
+  }
+
+  .game-location{
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 17px;
+  }
+
+  section{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 17px;
+  }
+
+  .main-image{
+    width: 100%;
+  }
+
+  /* game-download-section game-download-section game-download-section 
+  game-download-section game-download-section game-download-section  */
+
+  .console-name{
+    font-size: 16px;
+    color: var(--grey);
+    border-left: 3px solid red;
+    padding-left: 5px;
+    margin-top: 25px;
+  }
+
+  .game-title-h{
+    margin-top: 25px;
+    font-size: 27px;
+  }
+
+  .select-product-text{
+    margin-top: 5px;
+    font-size: 13px;
+    color: var(--grey);
+  }
+
+  /* select-product-box select-product-box select-product-box 
+  select-product-box select-product-box select-product-box  */
+
+  .select-product-div{
+    margin-top: 10px;
+    border: 1.8px solid var(--grey);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+
+  .select-and-text-div{
+    display: flex;
+  }
+
+  .purchase-titles{
+    margin-left: 15px;
+  }
+
+  .select-icon{
+    width: 35px;
+    height: 35px;
+  }
+
+  .platform{
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .game-title{
+    font-size: 13px;
+    color: var(--grey);
+    margin-top: 7px;
+  }
+
+  .price-text-div .price-text{
+    font-size: 18px;
+  }
+
+  .price-div{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .price-div p{
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .price-div .heart-logo{
+    width: 32px;
+    height: 32px;
+  }
+
+  .earned-points{
+    margin-top: var(--top-margin);
+    font-size: 13px;
+  }
+
+  .download-btn{
+    margin-top: var(--top-margin);
+    width: 100%;
+    border: none;
+    background-color: var(--nintendo-red);
+    font-size: 25px;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .purchase-info{
+    margin-top: var(--top-margin);
+    color: var(--grey);
+    font-size: 12px;
+    padding-bottom: 30px;
+  }
+
+.game-description{
+    border: 1px solid rgb(180, 180, 180);
+    border-bottom: 0;
+    border-right: 0;
+    border-left: 0;
+    padding-bottom: 90px;
+}
+
+.description-title{
+    margin-top: 20px;
+    font-size: 19px;
+    color: var(--grey);
+}
+
+.description-text{
+    margin-top: 25px;
+    font-size: 15px;
+    color: rgb(53, 53, 53);
+}
+
+.description-text4, .description-text5{
+    display: none;
+}
+
+.read-more-button{
+    color: rgb(179, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.description-note{
+    margin-top: 10px;
+}
+
+.game-website{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.game-website-btn{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: var(--top-margin);
+}
+
+.switch-game-img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.switch-game-img-div img{
+    width: 45%;
+    height: 500px;
+}
+
+/* esrb-rating-div esrb-rating-div esrb-rating-div esrb-rating-div esrb-rating-div
+esrb-rating-div esrb-rating-div esrb-rating-div esrb-rating-div esrb-rating-div */
+
+.esrb-rating-div{
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-top: 25px;
+    padding-bottom: 60px;
+}
+
+.esrb-title{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.esrb{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    margin-top: var(--top-margin);
+}
+
+.esrb img{
+    width: 55px;
+    height: 75px;
+}
+
+.esrb p{
+    margin-left: 10px;
+}
+
+
+/* supported modes supported modes supported modes supported modes supported modes
+supported modes supported modes supported modes supported modes supported modes */
+
+.supported-modes-div{
+    margin-top: var(--top-margin);
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.supported-modes-title{
+    font-size: 18px;
+    margin-top: var(--top-margin);
+}
+
+.modes-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: var(--top-margin);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mode{
+    width: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mode-img{
+    width: 100%;
+    height: 80px;
+}
+
+.mode-text{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+/* system details system details system details system details system details
+system details system details system details system details system details */
+
+.system-details-div{
+    margin-top: 30px;
+}
+
+.detail-div{
+    display: flex;
+    border-top: 1px solid rgb(192, 192, 192);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+}
+
+.detail-icon{
+    width: 35px;
+    height: 30px;
+}
+
+.detail-text-div{
+    margin-left: 20px;
+}
+
+.detail-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detail-text{
+    font-size: 17px;
+    color: grey;
+    margin-top: 2.5px;
+}
+
+.linkable-detail{
+    color: var(--nintendo-red);
+    text-decoration: underline;
+}
+
+.supported-languages-div{
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+.supported-modes-icon{
+    height: 20px;
+}
+
+
+/* nintendo online nintendo online nintendo online nintendo online nintendo online
+nintendo online nintendo online nintendo online nintendo online nintendo online */
+
+.nintendo-online-div{
+    margin-top: 80px;
+    background-color: rgb(243, 243, 243);
+    padding: 30px;
+}
+
+.online-div{
+    background-color: var(--nintendo-red);
+    display: inline-flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.online-div img{
+    width: 35px;
+    height: 35px;
+}
+
+.online-title{
+    font-size: 32px;
+    color: white;
+    padding: 10px;
+}
+
+.online-details{
+    font-size: 19.5px;
+    margin-top: 25px;
+}
+
+.game-support-online{
+    font-size: 17px;
+    margin-top: 25px;
+}
+
+.learn-more-button{
+    background-color: var(--nintendo-red);
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: var(--top-margin);
+}
+
+.learn-more-button a{
+    color: white;
+    text-decoration: none;
+    margin-top: var(--top-margin);
+}
+
+
+
+.similar-games-div{
+    margin-top: 60px;
+}
+
+.similar-games-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: var(--grey);
+}
+
+.scrollable-cardboard{
+    margin-top: 40px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.game-card{
+    width: 45%;
+    padding: 20px;
+    display: inline-block;
+}
+
+.game-card-text-div{
+    border: 1.5px solid rgb(210, 210, 210);
+    margin-top: -8px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 15px;
+}
+
+.similar-game-img{
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.similar-game-title{
+    font-size: 17.5px;
+    color: var(--grey);
+    white-space: wrap;
+}
+
+.similar-game-date{
+    margin-top: 8px;
+    color: rgb(127, 127, 127);
+    font-size: 13px;
+}
+
+.similar-game-price{
+    margin-top: 40px;
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--grey);
+}
+
+.add-to-favorites-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.card-console-name{
+    font-size: 15px;
+    color: var(--grey);
+    border-left: 3px solid var(--nintendo-red);
+    padding-left: 7px;
+}
+
+
+
+.favorite-logo{
+    width: 25px;
+    height: 25px;
+}
+
+.warning-div{
+    margin-top: 60px;
+}
+
+.warning-text{
+    color: rgb(96, 96, 96);
+    font-size: 11px;
+}
+
+/* nintendo info nintendo info nintendo info nintendo info nintendo info nintendo info
+nintendo info nintendo info nintendo info nintendo info nintendo info nintendo info */
+
+.nintendo-info{
+
+}
+
+.nintendo-badge{
+    background-color: var(--nintendo-red);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.nintendo-badge-img{
+    width: 250px;
+    height: 80px;
+}
+
+.nintendo-quick-link-icons{
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+}
+
+.nintendo-extra-info-table{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.info-tile{
+    width: 350px;
+    margin-top: 40px;
+    border-left: 1px solid rgb(212, 212, 212);
+    padding-left: 20px;
+}
+
+.tile-title{
+    color: var(--grey);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tile-list{
+    margin-top: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.tile-list li{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--nintendo-red);
+    margin-top: 15px;
+}
+
+.privacy-certified-logo{
+    margin-top: 45px;
+    width: 62px;
+    height: 85px;
+}
+
+/* footer footer footer footer footer footer footer footer footer footer footer footer
+footer footer footer footer footer footer footer footer footer footer footer footer */
+
+footer{
+    margin-top: 40px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.footer-info{
+    font-size: 13px;
+}
+
+.footer-list{
+    list-style: none;
+    margin-top: 40px;
+}
+
+.footer-list li{
+    display: inline;
+    font-weight: bold;
+    margin-left: 10px;
+}
+}
